@@ -1,0 +1,13 @@
+experiment,model,recall_unseen,recall_known,FPR,F1,MCC
+hold DoS+DDoS,RandomForest,0.5537,0.9538,0.0387,0.7992,0.4293
+hold DoS+DDoS,OneClassSVM,0.9664,0.1179,0.1105,0.8301,0.4268
+hold DoS+DDoS,Autoencoder p95,0.9779,0.1576,0.0549,0.8472,0.4825
+hold DoS+DDoS,Autoencoder p99,0.8681,0.0645,0.0103,0.7767,0.4217
+hold Reconnaissance,RandomForest,0.0402,0.9999,0.0001,0.6388,0.289
+hold Reconnaissance,OneClassSVM,0.1196,0.962,0.1338,0.6566,0.2212
+hold Reconnaissance,Autoencoder p95,0.3981,0.9882,0.054,0.7936,0.3773
+hold Reconnaissance,Autoencoder p99,0.0636,0.9665,0.0079,0.6365,0.2831
+hold Theft,RandomForest,0.9653,0.9801,0.0296,0.9873,0.9168
+hold Theft,OneClassSVM,0.3251,0.6867,0.1344,0.7968,0.389
+hold Theft,Autoencoder p95,0.3251,0.8628,0.0531,0.9137,0.6325
+hold Theft,Autoencoder p99,0.122,0.6755,0.0096,0.7951,0.4618
