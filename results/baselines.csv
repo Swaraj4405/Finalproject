@@ -1,0 +1,7 @@
+experiment,model,recall_unseen,recall_known,FPR,F1,MCC
+hold DoS+DDoS,RandomForest,0.5492,0.9538,0.0385,0.7969,0.4268
+hold DoS+DDoS,OneClassSVM,0.9672,0.0943,0.1077,0.8261,0.4229
+hold Reconnaissance,RandomForest,0.0404,0.9999,0.0001,0.6389,0.2891
+hold Reconnaissance,OneClassSVM,0.109,0.1052,0.1328,0.1911,-0.0248
+hold Theft,RandomForest,0.9573,0.9801,0.0296,0.9872,0.9161
+hold Theft,OneClassSVM,0.2502,0.2162,0.1353,0.3502,0.0711
