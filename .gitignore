@@ -1,2 +1,9 @@
 "data/" 
 data/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pkl
+*.h5
+*.keras
+models/
